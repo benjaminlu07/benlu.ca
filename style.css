@@ -1,1 +1,18 @@
-/* Hello, World! */
+:root {
+    --main-bg-color: #111111
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    object-position: 50% -15vh;
+}
